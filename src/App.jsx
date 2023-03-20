@@ -12,8 +12,8 @@ export default function App() {
 		<>
 			<Topbar />
 			<div className='container'>
-				{router}
 				<Sidebar />
+				{router}
 			</div>
 		</>
 	);
