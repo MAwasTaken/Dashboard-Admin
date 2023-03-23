@@ -9,7 +9,7 @@ export default function Features() {
 			<div className='feature-item'>
 				<span className='feature-title'>درآمد</span>
 				<div className='feature-container'>
-					<span className='feature-money'>$2,415</span>
+					<span className='feature-money'>2,415 ﷼</span>
 					<span className='feature-rate'>
 						-11.4 <ArrowDownwardIcon className='feature-icon negative' />
 					</span>
@@ -19,7 +19,7 @@ export default function Features() {
 			<div className='feature-item'>
 				<span className='feature-title'>فروش</span>
 				<div className='feature-container'>
-					<span className='feature-money'>$2,415</span>
+					<span className='feature-money'>2,415 ﷼</span>
 					<span className='feature-rate'>
 						-1.4 <ArrowDownwardIcon className='feature-icon negative' />
 					</span>
@@ -29,7 +29,7 @@ export default function Features() {
 			<div className='feature-item'>
 				<span className='feature-title'>دارایی</span>
 				<div className='feature-container'>
-					<span className='feature-money'>$2,415</span>
+					<span className='feature-money'>2,415 ﷼</span>
 					<span className='feature-rate'>
 						+2.4 <ArrowUpwardIcon className='feature-icon' />
 					</span>
