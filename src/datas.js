@@ -13,4 +13,11 @@ let xAxisData = [
 	{ ماه: "اسفند", فروش: 97_000 },
 ];
 
-export { xAxisData };
+let newMembers = [
+	{ id: 1, username: "محمد امینی", title: "توسعه دهنده وب", img: "images/profile.jfif" },
+	{ id: 2, username: "محمد کریمی", title: "هک و امنیت", img: "images/profile.jfif" },
+	{ id: 3, username: "محمد سرابی", title: "متخصص کلان داده", img: "images/profile.jfif" },
+	{ id: 4, username: "محمد خداپناه", title: "مهندس استقرار و نگهداری", img: "images/profile.jfif" },
+];
+
+export { xAxisData, newMembers };
