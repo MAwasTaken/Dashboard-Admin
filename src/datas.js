@@ -20,4 +20,11 @@ let newMembers = [
 	{ id: 4, username: "محمد خداپناه", title: "مهندس استقرار و نگهداری", img: "images/profile.jfif" },
 ];
 
-export { xAxisData, newMembers };
+let transactions = [
+  {id: 1, customer: 'امین محمدی', date: '12 فروردین 1402', amount: 123_000, status: 'declined' ,img: 'images/profile.jfif'},
+  {id: 2, customer: 'امین کریمی', date: '28 اردیبهشت 1402', amount: 321_000, status: 'declined' ,img: 'images/profile.jfif'},
+  {id: 3, customer: 'امین سرابی', date: '1 خرداد 1402', amount: 213_000, status: 'approved' ,img: 'images/profile.jfif'},
+  {id: 4, customer: 'امین خداپناه', date: '5 تیر 1402', amount: 231_000, status: 'pending' ,img: 'images/profile.jfif'},
+]
+
+export { xAxisData, newMembers, transactions };
