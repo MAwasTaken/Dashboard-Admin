@@ -21,10 +21,18 @@ let newMembers = [
 ];
 
 let transactions = [
-  {id: 1, customer: 'امین محمدی', date: '12 فروردین 1402', amount: 123_000, status: 'declined' ,img: 'images/profile.jfif'},
-  {id: 2, customer: 'امین کریمی', date: '28 اردیبهشت 1402', amount: 321_000, status: 'declined' ,img: 'images/profile.jfif'},
-  {id: 3, customer: 'امین سرابی', date: '1 خرداد 1402', amount: 213_000, status: 'approved' ,img: 'images/profile.jfif'},
-  {id: 4, customer: 'امین خداپناه', date: '5 تیر 1402', amount: 231_000, status: 'pending' ,img: 'images/profile.jfif'},
-]
+	{ id: 1, customer: "امین محمدی", date: "12 فروردین 1402", amount: 123_000, status: "declined", img: "images/profile.jfif" },
+	{ id: 2, customer: "امین کریمی", date: "28 اردیبهشت 1402", amount: 321_000, status: "declined", img: "images/profile.jfif" },
+	{ id: 3, customer: "امین سرابی", date: "1 خرداد 1402", amount: 213_000, status: "approved", img: "images/profile.jfif" },
+	{ id: 4, customer: "امین خداپناه", date: "5 تیر 1402", amount: 231_000, status: "pending", img: "images/profile.jfif" },
+];
 
-export { xAxisData, newMembers, transactions };
+let userRows = [
+	{ id: 1, username: "سروش نوری", avatar: "images/profile.jfif", status: "فعال", transaction: "129.52 ﷼", email: 'sn@gmail.com' },
+	{ id: 2, username: "سروش مولایی", avatar: "images/profile.jfif", status: "فعال", transaction: "98.52 ﷼", email: 'sm@gmail.com' },
+	{ id: 3, username: "سروش فرقانی", avatar: "images/profile.jfif", status: "فعال", transaction: "259.00 ﷼", email: 'sf@gmail.com' },
+	{ id: 4, username: "سروش تبریزی", avatar: "images/profile.jfif", status: "غیر فعال", transaction: "0 ﷼", email: 'st@gmail.com' },
+	{ id: 5, username: "سروش قنبری", avatar: "images/profile.jfif", status: "غیر فعال", transaction: "10,70 ﷼", email: 'sgh@gmail.com' },
+];
+
+export { xAxisData, newMembers, transactions, userRows };
