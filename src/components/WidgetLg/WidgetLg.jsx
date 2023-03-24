@@ -21,9 +21,15 @@ export default function WidgetLg() {
 				</thead>
 				<tbody>
 					{transactions.map((transaction) => (
-						<tr className='widgetlg-tr' key={transaction.id}>
+						<tr
+							className='widgetlg-tr'
+							key={transaction.id}>
 							<td className='widgetlg-user'>
-								<img src={transaction.img} className='widgetlg-img' alt='profile' />
+								<img
+									src={transaction.img}
+									className='widgetlg-img'
+									alt='profile'
+								/>
 								<span className='widgetlg-name'>{transaction.customer}</span>
 							</td>
 							<td className='widgetlg-date'>{transaction.date}</td>

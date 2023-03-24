@@ -21,8 +21,10 @@ export default function Sidebar() {
 				<div className='sidebar-menu'>
 					<h3 className='sidebar-title'>داشبورد</h3>
 					<ul className='sidebar-list'>
-						<Link className="link" to='/'>
-							<li className='sidebar-list-item active'>
+						<Link
+							className='link'
+							to='/'>
+							<li className='sidebar-list-item'>
 								<LineStyleIcon className='sidebar-icon' />
 								خانه
 							</li>
@@ -40,19 +42,25 @@ export default function Sidebar() {
 				<div className='sidebar-menu'>
 					<h3 className='sidebar-title'>دسترسی سریع</h3>
 					<ul className='sidebar-list'>
-						<Link className="link" to='/users'>
+						<Link
+							className='link'
+							to='/users'>
 							<li className='sidebar-list-item'>
 								<PermIdentityIcon className='sidebar-icon' />
 								کاربران
 							</li>
 						</Link>
-						<Link className="link" to='/newuser'>
+						<Link
+							className='link'
+							to='/newuser'>
 							<li className='sidebar-list-item'>
 								<PermIdentityIcon className='sidebar-icon' />
 								کاربر جدید
 							</li>
 						</Link>
-						<Link className="link" to='/products'>
+						<Link
+							className='link'
+							to='/products'>
 							<li className='sidebar-list-item'>
 								<StorefrontIcon className='sidebar-icon' />
 								محصولات

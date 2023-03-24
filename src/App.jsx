@@ -3,7 +3,7 @@ import { useRoutes } from "react-router-dom";
 import Topbar from "./components/Topbar/Topbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import routes from "./routes";
-import './App.css'
+import "./App.css";
 
 export default function App() {
 	let router = useRoutes(routes);

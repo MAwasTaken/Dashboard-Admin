@@ -9,8 +9,14 @@ export default function WidgetSm() {
 			<span className='widgetsm-title'>کاربران تازه ملحق شده</span>
 			<ul className='widgetsm-list'>
 				{newMembers.map((user) => (
-					<li key={user.id} className='widgetsm-list-item'>
-						<img src={user.img} alt='profile' className='widgetsm-img' />
+					<li
+						key={user.id}
+						className='widgetsm-list-item'>
+						<img
+							src={user.img}
+							alt='profile'
+							className='widgetsm-img'
+						/>
 						<div className='widgetsm-user'>
 							<span className='widgetsm-username'>{user.username}</span>
 							<span className='widgetsm-usertitle'>{user.title}</span>

@@ -14,7 +14,7 @@ export default function Features() {
 						-11.4 <ArrowDownwardIcon className='feature-icon negative' />
 					</span>
 				</div>
-        <span className="feature-sub">در مقایسه با ماه قبل</span>
+				<span className='feature-sub'>در مقایسه با ماه قبل</span>
 			</div>
 			<div className='feature-item'>
 				<span className='feature-title'>فروش</span>
@@ -24,7 +24,7 @@ export default function Features() {
 						-1.4 <ArrowDownwardIcon className='feature-icon negative' />
 					</span>
 				</div>
-        <span className="feature-sub">در مقایسه با ماه قبل</span>
+				<span className='feature-sub'>در مقایسه با ماه قبل</span>
 			</div>
 			<div className='feature-item'>
 				<span className='feature-title'>دارایی</span>
@@ -34,7 +34,7 @@ export default function Features() {
 						+2.4 <ArrowUpwardIcon className='feature-icon' />
 					</span>
 				</div>
-        <span className="feature-sub">در مقایسه با ماه قبل</span>
+				<span className='feature-sub'>در مقایسه با ماه قبل</span>
 			</div>
 		</div>
 	);
