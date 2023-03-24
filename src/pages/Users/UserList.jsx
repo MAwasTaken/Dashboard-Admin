@@ -15,12 +15,12 @@ export default function Users() {
 	const columns = [
 		{
 			field: "id",
-			headerName: "ID",
+			headerName: "آیدی",
 			width: 90,
 		},
 		{
 			field: "user",
-			headerName: "User",
+			headerName: "کاربر",
 			width: 200,
 			renderCell: (params) => {
 				return (
@@ -41,28 +41,28 @@ export default function Users() {
 		},
 		{
 			field: "email",
-			headerName: "Email",
+			headerName: "ایمیل",
 			width: 200,
 		},
 		{
 			field: "status",
-			headerName: "Status",
+			headerName: "وضعیت",
 			width: 120,
 		},
 		{
 			field: "transaction",
-			headerName: "Transaction",
+			headerName: "تراکنش",
 			width: 160,
 		},
 		{
 			field: "action",
-			headerName: "Action",
+			headerName: "رخداد",
 			width: 120,
 			renderCell: (params) => {
 				return (
 					<div className='userlist-action'>
 						<Link to={`/user/${params.row.id}`}>
-							<button className='userlist-edit'>Edit</button>
+							<button className='userlist-edit'>ویرایش</button>
 						</Link>
 						<DeleteOutlineIcon
 							className='userlist-delete'
@@ -77,7 +77,6 @@ export default function Users() {
 	return (
 		<div className='userlist'>
 			<DataGrid
-				autoHeight
 				rows={userDatas}
 				columns={columns}
 				disableRowSelectionOnClick
