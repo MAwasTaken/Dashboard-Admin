@@ -42,4 +42,10 @@ let products = [
 	{ id: 4, title: "Dell", avatar: "images/dell.jpg", price: "554 ﷼" },
 ];
 
-export { xAxisData, newMembers, transactions, userRows, products };
+const productsData = [
+  {ماه: 'فروردین', فروش: 4000},
+  {ماه: 'اردیبهشت', فروش: 3000},
+  {ماه: 'خرداد', فروش: 5000},
+]
+
+export { xAxisData, newMembers, transactions, userRows, products, productsData };
